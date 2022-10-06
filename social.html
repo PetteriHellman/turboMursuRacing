@@ -1,12 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Social</title>
 </head>
 <body>
+    <div class="container style">
+
+        <div class="youtube-integration">
+            <h1>turbomursu YouTube channel videos</h1>
+            <!--Kanavan viimesin YouTube video-->
+            <div id="latest-video-embed">
+                <h3>Latest turbomursu Channel YouTube video</h3>
+                <!--Viimeisimmän turbomursu kanavan videon upotus-->
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" width="560" height="315"
+                        src="https://www.youtube-nocookie.com/embed/videoseries?list=UUhydfpycWB1m9QEIx4hJaSw"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <div id="favorite-video-embed" >
+                    <h3>turbomursu favorite YouTube video</h3>
+                <!--Parhaimman YouTube videon upotus soittolistasta-->
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" width="560" height="315"
+                        src="https://www.youtube-nocookie.com/embed/videoseries?list=PLZJXd1TwVAJHkWvBN9Z63jizSXffeZRrD"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                </div>
+            <!--Youtube soittolistan upotus-->
+            <div id="cmp-rally-challenge-embed">
+                <h3>Latest CMP Rally Challenge YouTube video</h3>
+                <!--Viimeisimmän CMP Rally Challenge videon upotus soittolistasta-->
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" width="560" height="315"
+                        src="https://www.youtube-nocookie.com/embed/videoseries?list=PLZJXd1TwVAJHkWvBN9Z63jizSXffeZRrD"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+            <div id="akk-kansallinen-sarja-embed">
+                <h3>Latest AKK Kansallinen Sarja YouTube video</h3>
+                <!--Viimeisimmän AKK kansallinen sarja videon upotus soittolistasta-->
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLZJXd1TwVAJHCIP6WJx80KMbLRgffsV0f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    
+    
+    </div>
     
 </body>
 </html>
