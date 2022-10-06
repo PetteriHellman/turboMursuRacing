@@ -1,19 +1,46 @@
-body {
-    background-color: black;
+* {
+    margin: 0;
+    padding: 0;
 }
-.style {
+body {
     font-family: Arial, Verdana, sans-serif;
+    background-color: #353535;
     color: white;
 }
 .header {
-
+    /* color: #cccccc; */
+    margin: 30px;
 }
-.info {
-
+.navbar {
+    font-size: large;
 }
-.integration {
-
+.navbar-dark {
+    background-color: #222222;
 }
-.end {
-    
+.dropdown-menu {
+    background-color: #222222;
+}
+.dropdown-item {
+    background-color: #222222;
+    color: #c7c7c7;
+}
+.dropdown-item:hover {
+    color: white;
+    background-color: #222222;
+}
+img {
+    width: 300px;
+}
+.footer {
+    background-color: #222222;
+    color: #919191;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+}
+.footer p {
+    margin: 0;
+    vertical-align: middle;
+    padding: 10px;
 }
