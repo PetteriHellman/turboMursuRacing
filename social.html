@@ -43,7 +43,16 @@
         });
     </script>
     <!--end of Navigation bar-->
-    <div class="container style">
+    <div class="container">
+        <!--Header alkaa-->
+        <div id="header-placeholder">
+        </div>
+        <script>
+        $(function(){
+          $("#header-placeholder").load("elements/header.html");
+        });
+        </script>
+        <!--Header päättyy-->
 
         <div class="youtube-integration">
             <h1 class="text-center my-5">turbomursu YouTube channel videos</h1>
