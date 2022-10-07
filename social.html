@@ -1,3 +1,23 @@
+<!--
+    Ohjeet YouTube videon upotukseen.
+        Youtubessa menet kanavan soittolistat välilehdelle, sieltä halutun soittolistan kohdalta "näytä koko soittolista", sieltä jaa napin takaa upota.
+        Sieltä löytyvällä iframe rivillä korvataan allaolevan mallipohjan mukainen iframe rivi (voit ottaa käyttöön yksityisyyssuojan jolloin youtuben osoite muuttuu youtube-nocookie tyyliseksi) eli toisin sanoen upotettavan videon iframe tulee embed-responsive embed-responsive-16by9 luokan sisään.
+        bootstarp suosittelee, että iframelle annetaan embed-responsive-item luokka. iframe rivistä pitää poistaa frameborder="0" koska muutoin sivu ei ole W3C validia.
+        h3 elementillä lisätään videon otsikko sivulle.
+        Mallipohja:
+
+            <h3 class="text-center">Tähän videon otsikko</h3>
+
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" width="560" height="315"
+                    src="https://www.youtube-nocookie.com/embed/videoseries?list=UUhydfpycWB1m9QEIx4hJaSw"
+                    title="YouTube video player"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 
