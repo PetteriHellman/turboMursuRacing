@@ -5,39 +5,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="styles.css"> 
+    <link rel="stylesheet" href="styles/styles.css"> 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://kit.fontawesome.com/a84acfa27b.js" crossorigin="anonymous"></script>
     <title>Fat Walrus Racing</title>
 
 </head>
 <body>
 
-    <!--Navigation bar-->
+    <!--Navi alkaa-->
     <div id="nav-placeholder">
     </div>
     <script>
     $(function(){
-      $("#nav-placeholder").load("nav.html");
+      $("#nav-placeholder").load("elements/nav.html");
     });
     </script>
-    <!--end of Navigation bar-->
+    <!--Navi päättyy-->
     
+    <!--Tässä divissä kaikki sisältö, mitä on navin ja footerin välissä-->
     <div class="container">
 
-        <header class="header">
-            <h1>Fat Walrus Racing</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nisi optio nesciunt, maxime doloribus nulla sunt. Quibusdam natus, iusto exercitationem consequatur, pariatur delectus dolores alias eos totam beatae fuga odio.</p>
-            <!-- <img src="img/turbomursulogo.png" alt="Fat Walrus Racing"> -->
-        </header>
+        <!--Header alkaa-->
+        <div id="header-placeholder">
+        </div>
+        <script>
+        $(function(){
+          $("#header-placeholder").load("elements/header.html");
+        });
+        </script>
+        <!--Header päättyy-->
+
+        <!--Twitter-ikkuna alkaa-->
+        <div style="width: 80%; margin-left:auto; margin-right:auto;">
+            <a style="margin-left: auto; margin-right:auto;" class="twitter-timeline" data-theme="dark" href="https://twitter.com/fatwalrusracing?ref_src=twsrc%5Etfw">Tweets by fatwalrusracing</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+        </div>
+        <!--Twitter-ikkuna päättyy-->
 
     </div>
+    <!--Sisältö loppuu-->
 
-    <footer class="footer">
-        <p>Content</p>
-    </footer>
+    <!--Footer alkaa-->
+    <div id="footer-placeholder">
+    </div>
+    <script>
+    $(function(){
+      $("#footer-placeholder").load("elements/footer.html");
+    });
+    </script>
+    <!--Footer päättyy-->
     
 </body>
 </html>
