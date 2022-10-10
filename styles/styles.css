@@ -4,7 +4,7 @@
 }
 body {
     font-family: Arial, Verdana, sans-serif;
-    background-color: #353535;
+    background-color: #424242;
     color: white;
     min-height: 100vh;
     position: relative;
@@ -17,22 +17,32 @@ body::after {
 .container {
     height: 100%;
 }
+.content {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 100px;
+}
 .navbar {
     font-size: large;
+    background-color: #2a2a2a;
 }
-.navbar-dark {
-    background-color: #222222;
+.navbar a {
+    color: #cccccc;
+}
+.navbar a:hover {
+    color: white;
 }
 .dropdown-menu {
-    background-color: #222222;
+    background-color: #2a2a2a;
 }
 .dropdown-item {
-    background-color: #222222;
-    color: #c7c7c7;
+    background-color: #2a2a2a;
+    color: #cccccc;
 }
 .dropdown-item:hover {
     color: white;
-    background-color: #222222;
+    background-color: #2a2a2a;
 }
 .header {
     text-align: center;
@@ -50,8 +60,8 @@ body::after {
     transform: scaleX(-1);
 }
 .footer {
-    background-color: #222222;
-    color: #919191;
+    background-color: #2a2a2a;
+    color: #cccccc;
     position: absolute;
     width: 100%;
     text-align: center;
@@ -59,7 +69,7 @@ body::after {
    /*  height: fit-content; */
 }
 .footer ul {
-    padding: 0;
+    padding: 15px;
     list-style: none;
     text-align: center;
     font-size: 16px;
@@ -70,26 +80,65 @@ body::after {
     text-decoration: none;
 }
 footer ul a:hover {
-    opacity: 0.3;
-}
-.footer .social {
-    padding: 10px;
+    color: white;
 }
 .footer .social > a{
     color: inherit;
     padding: 10px;
 }
 .footer .social >a:hover {
-    opacity: 0.3;
+    color: white;
 }
 .footer p {
     margin: 0;
     vertical-align: middle;
     padding: 10px;
 }
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #424242;
+}
+.dropdown-content a {
+    color: #2a2a2a;
+    padding: 5px 10px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropitem{
+    color: white;
+}
+
+@media only screen and (max-width: 1200px) {
+    .first {
+        display: none;
+    }
+    .second {
+        max-width: 100%;
+    }
+    .third {
+        max-width: 100%;
+    }
+}
 
 @media only screen and (max-width: 768px) {
     .flag {
         display: none;
     }
+}
+
+@media only screen and (max-width: 575px) {
+    .first {
+        display: none;
+    }
+    .second {
+        display: none;
+    }  
 }
