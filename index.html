@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles/styles.css"> 
+    <link rel="stylesheet" href="fontawesome-free-6.2.0-web/css/all.css">
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-    <script src="https://kit.fontawesome.com/a84acfa27b.js" crossorigin="anonymous"></script>
     <title>Fat Walrus Racing</title>
 
 </head>
@@ -40,14 +40,25 @@
         <!--Header päättyy-->
 
         <!--Twitter-ikkuna alkaa-->
-        <div style="width: 80%; margin-left:auto; margin-right:auto;">
-            <a style="margin-left: auto; margin-right:auto;" class="twitter-timeline" data-theme="dark" href="https://twitter.com/fatwalrusracing?ref_src=twsrc%5Etfw">Tweets by fatwalrusracing</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+        <div class="content">
+          <img style="width: 100%;" src="img/line_of_fire.gif" alt="Tuli">
+            <a class="twitter-timeline" data-theme="dark" href="https://twitter.com/fatwalrusracing?ref_src=twsrc%5Etfw">Tweets by fatwalrusracing</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
         </div>
         <!--Twitter-ikkuna päättyy-->
 
     </div>
     <!--Sisältö loppuu-->
 
+    <!-- Tuli gifit alkaa-->
+    <div id="gif-placeholder">
+    </div>
+    <script>
+    $(function(){
+      $("#gif-placeholder").load("elements/gif.html");
+    });
+    </script>
+    <!-- Tuli gifit päättyy-->
+    
     <!--Footer alkaa-->
     <div id="footer-placeholder">
     </div>
