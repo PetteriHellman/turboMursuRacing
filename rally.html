@@ -34,39 +34,50 @@
         });
         </script>
         <!--Header päättyy-->
-        <h1>Results for Dirt Rally 2.0 races </h1>
-        <!-- Uuden taulukon uutta kisaa varten saa kun kopioi ja liittää table-tagin ja sen välissä olevat-->
-        <table class="table table-hover table-dark table-bordered table-sm" >
-            <thead>
-                <tr>   
-                    <th colspan="4"><img src="img/dirt-rally-2_0-logo.png" alt="Dirt rally 2.0" style="background-color:rgb(209, 209, 209)"/></th>
-                </tr>
-                <tr>        
-                    <th>Race organizer</th>
-                    <th>Race name</th>
-                    <th>Result</th>
-                    <th>Link to race youtube series</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr >
-                    <!-- Logon kuvat vaihdetaan vaihtalla src- attribuuttia --> 
-                    <td><img src="https://dummyimage.com/100x100/fff/aaa" alt="Race organizer logo"/></td>
-                    <!--Näihin muokataan kisan tiedot  -->
-                    <td class="align-middle">
-                        Fat Walrus Racing Cup 1
-                    </td>
-                    <td class="align-middle">
-                        0.00.000
-                    </td>
-                    <td class="align-middle">
-                        <a href="https://www.youtube.com/watch?v=-MUi4J-KpeQ&list=PLZJXd1TwVAJHkWvBN9Z63jizSXffeZRrD">
-                            Link
+        <div class="content">
+            <h1>Results for Dirt Rally 2.0 races </h1>
+            <!-- Uuden taulukon uutta kisaa varten saa kun kopioi ja liittää table-tagin ja sen välissä olevat-->
+            <table class="table table-hover table-dark table-bordered table-sm" >
+                <thead>
+                    <tr>   
+                        <th colspan="4"><img src="img/dirt-rally-2_0-logo.png" alt="Dirt rally 2.0" style="background-color:rgb(209, 209, 209)"/></th>
+                    </tr>
+                    <tr>        
+                        <th>Race organizer</th>
+                        <th>Race name</th>
+                        <th>Result</th>
+                        <th>Link to race youtube series</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr >
+                        <!-- Logon kuvat vaihdetaan vaihtalla src- attribuuttia --> 
+                        <td><img src="https://dummyimage.com/100x100/fff/aaa" alt="Race organizer logo"/></td>
+                        <!--Näihin muokataan kisan tiedot  -->
+                        <td class="align-middle">
+                            Fat Walrus Racing Cup 1
                         </td>
-                </tr>
-            </tbody>
-        </table> 
+                        <td class="align-middle">
+                            0.00.000
+                        </td>
+                        <td class="align-middle">
+                            <a href="https://www.youtube.com/watch?v=-MUi4J-KpeQ&list=PLZJXd1TwVAJHkWvBN9Z63jizSXffeZRrD">
+                                Link
+                            </td>
+                    </tr>
+                </tbody>
+            </table> 
+        </div>
     </div>
+    <!-- Tuli gifit alkaa-->
+    <div id="gif-placeholder">
+    </div>
+    <script>
+    $(function(){
+      $("#gif-placeholder").load("elements/gif.html");
+    });
+    </script>
+    <!-- Tuli gifit päättyy-->
         <!--Footer alkaa-->
         <div id="footer-placeholder">
         </div>
