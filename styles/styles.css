@@ -59,8 +59,7 @@ body::after {
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
 }
-.youtube-integration ul {
-    list-style-type: none;
+.youtube-integration .btn-group-vertical {
     margin-left: 10vw;
 }
 .youtube-integration iframe {
