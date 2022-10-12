@@ -65,8 +65,14 @@ body::after {
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
 }
-.youtube-integration ul {
-    list-style-type: none;
+.youtube-integration .btn-group-vertical {
+    margin-left: 10vw;
+}
+.youtube-integration iframe {
+    max-width: 560px;
+    display: block;
+    margin-left: 8.5vw;
+    margin-right: auto;
 }
 .footer {
     background-color: #2a2a2a;
