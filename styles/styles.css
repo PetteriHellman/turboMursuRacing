@@ -61,6 +61,7 @@ body::after {
 }
 .youtube-integration ul {
     list-style-type: none;
+    margin-left: 10vw;
 }
 .youtube-integration iframe {
     max-width: 560px;
