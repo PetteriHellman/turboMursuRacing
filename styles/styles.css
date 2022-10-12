@@ -65,12 +65,11 @@ body::after {
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
 }
-.youtube-integration iframe, .youtube-integration .youtube-links {
-    max-width: 560px;
+.youtube-integration iframe {
+    max-width: 600px;
     display: block;
-    margin-left: 8.5vw;
-    margin-right: auto;
 }
+
 .footer {
     background-color: #2a2a2a;
     color: #cccccc;
