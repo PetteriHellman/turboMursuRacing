@@ -65,10 +65,7 @@ body::after {
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
 }
-.youtube-integration .btn-group-vertical {
-    margin-left: 10vw;
-}
-.youtube-integration iframe {
+.youtube-integration iframe, .youtube-integration .youtube-links {
     max-width: 560px;
     display: block;
     margin-left: 8.5vw;
