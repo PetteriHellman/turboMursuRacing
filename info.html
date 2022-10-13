@@ -1,78 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="styles/styles.css">
-    <link rel="stylesheet" href="fontawesome-free-6.2.0-web/css/all.css">
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-    <script src="https://kit.fontawesome.com/a84acfa27b.js" crossorigin="anonymous"></script>
-    <title>Fat Walrus Racing - Info</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="fontawesome-free-6.2.0-web/css/all.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="https://kit.fontawesome.com/a84acfa27b.js" crossorigin="anonymous"></script>
+  <title>Fat Walrus Racing - Info</title>
 </head>
+
 <body>
 
-<!--Navigation bar-->
-    <div id="nav-placeholder">
-    </div>
-    <script>
-    $(function(){
+  <!--Hakee navbarin elements/nav.html tiedostosta-->
+  <div id="nav-placeholder">
+  </div>
+  <script>
+    $(function () {
       $("#nav-placeholder").load("elements/nav.html");
     });
-    </script>
-<!--end of Navigation bar-->
+  </script>
+  <!--end of Navigation bar-->
 
-    <div class="container">
-    
-<!--Header alkaa-->
+  <div class="container">
+
+    <!--Hakee headerin elements/header.html tiedostosta-->
     <div id="header-placeholder">
     </div>
     <script>
-    $(function(){
-      $("#header-placeholder").load("elements/header.html");
-    });
+      $(function () {
+        $("#header-placeholder").load("elements/header.html");
+      });
     </script>
-<!--Header päättyy-->
+    <!--Header päättyy-->
 
     <div class="content">
-   
-            <h1 itemid="info">Info</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat libero, dolor,
-               sapiente eaque placeat corporis neque quibusdam perferendis debitis 
-               quas, maiores ad! Quis ut maxime alias iusto cumque molestiae autem.</p>
-   
-            <h1 itemid="tiedot">Tiedot</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur quos omnis fuga doloremque. 
-               Eveniet voluptates quo culpa soluta inventore doloribus facilis blanditiis quasi quod tempore similique repudiandae,
-               placeat tenetur nobis?</p>
-  
-    </div>
+
+      <!--Liput englannin info-otsikon päällä-->
+      <a style="padding: 5px;" href="#info"><img src="img/union-jack-small.png" alt="English"></a>
+      <a style="padding: 5px;" href="#tiedot"><img src="img/finland-flag-small.png" alt="Suomi"></a>
+
+      <!--Ankkuri englanninkieliselle osuudelle-->
+      <div style="margin-top: -90px; position: absolute;" id="info"></div>
+
+      <!--Info-osio-->
+      <h1 style="padding-top: 10px;" itemid="info">Info</h1>
+      <p style="padding-bottom: 50px;">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat libero, dolor,
+        sapiente eaque placeat corporis neque quibusdam perferendis debitis
+        quas, maiores ad! Quis ut maxime alias iusto cumque molestiae autem.
+      </p>
+
+      <!--Liput tiedot-otsikon päällä-->
+      <a style="padding: 5px;" href="#tiedot"><img src="img/finland-flag-small.png" alt="Suomi"></a>
+      <a style="padding: 5px;" href="#info"><img src="img/union-jack-small.png" alt="English"></a>
+
+      <!--Ankkuri suomenkieliselle osuudelle-->
+      <div style="margin-top: -90px; position: absolute;" id="tiedot"></div>
+
+      <!--Tiedot-osio-->
+      <h1 style="padding-top: 10px;" itemid="tiedot">Tiedot</h1>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur quos omnis fuga doloremque.
+        Eveniet voluptates quo culpa soluta inventore doloribus facilis blanditiis quasi quod tempore similique
+        repudiandae,
+        placeat tenetur nobis?
+      </p>
 
     </div>
 
-<!-- Tuli gifit alkaa-->
-<div id="gif-placeholder">
-</div>
-<script>
-$(function(){
-  $("#gif-placeholder").load("elements/gif.html");
-});
-</script>
-<!-- Tuli gifit päättyy-->
-    
-<!--Footer alkaa-->
-    <div id="footer-placeholder">
-    </div>
-    <script>
-    $(function(){
+  </div>
+
+  <!-- Hakee tuli gifit elements/gif.html tiedostosta -->
+  <div id="gif-placeholder">
+  </div>
+  <script>
+    $(function () {
+      $("#gif-placeholder").load("elements/gif.html");
+    });
+  </script>
+  <!-- Tuli gifit päättyy-->
+
+  <!--Hakee footerin elements/footer.html tiedostosta-->
+  <div id="footer-placeholder">
+  </div>
+  <script>
+    $(function () {
       $("#footer-placeholder").load("elements/footer.html");
     });
-    </script>
-<!--Footer päättyy-->
+  </script>
+  <!--Footer päättyy-->
 
 </body>
+
 </html>

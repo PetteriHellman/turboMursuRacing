@@ -23,8 +23,10 @@
         });
     </script>
     <!--Navi päättyy-->
+
     <div class="container justify-content-center mt-3 style">
-        <!--Header alkaa-->
+
+        <!--Hakee headerin elements/header.html tiedostosta-->
         <div id="header-placeholder">
         </div>
         <script>
@@ -33,6 +35,7 @@
         });
         </script>
         <!--Header päättyy-->
+
         <div class="content" style="" >
             <h1>Results for Assetto Corsa races </h1>
                 <!-- Uuden taulukon uutta kisaa varten saa kun kopioi ja liittää table-tagin ja sen välissä olevat-->
@@ -68,7 +71,8 @@
                 </table>
         </div>                            
     </div>
-    <!-- Tuli gifit alkaa-->
+
+    <!-- Hakee tuli gifit elements/gif.html tiedostosta -->
     <div id="gif-placeholder">
     </div>
     <script>
@@ -77,14 +81,16 @@
     });
     </script>
     <!-- Tuli gifit päättyy-->
-        <!--Footer alkaa-->
-        <div id="footer-placeholder">
-        </div>
-        <script>
-        $(function(){
-          $("#footer-placeholder").load("elements/footer.html");
-        });
-        </script>
-        <!--Footer päättyy-->
+
+    <!--Hakee footerin elements/footer.html tiedostosta-->
+    <div id="footer-placeholder">
+    </div>
+    <script>
+    $(function(){
+        $("#footer-placeholder").load("elements/footer.html");
+    });
+    </script>
+    <!--Footer päättyy-->
+
 </body>
 </html>
