@@ -155,4 +155,15 @@ footer ul a:hover {
     .second {
         display: none;
     }  
+    .mursu {
+        margin: 0;
+        margin-top: 20px;
+        max-width: 250px;
+    }
+}
+
+@media only screen and (max-width: 280px){
+    .mursu {
+        max-width: 150px;
+    }
 }
